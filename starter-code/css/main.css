@@ -15,7 +15,9 @@ body {
 .headfade {
   width: 100%;
   height: 200px;
-  background-color: #1c5380;
+  /*background-color: #1c5380;*/
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;
 }
 
 main {
@@ -48,13 +50,21 @@ main {
 
 .login {
   float: right;
-  width: 80px;
+  width: 90px;
   background-color: #06365f;
+  /*background-image: url(../images/bgtile.png);
+  background-repeat: repeat-x;*/
   font-size: 14px;
   margin-top: 25px;
   margin-right: 5px;
+  /*box-shadow: 2px 2px 2px 2px red;*/
+  padding: 3px;
 }
 
+.login span {
+  color: white;
+  height: 45px;
+}
 
 .frame {
   clear: both;
@@ -80,12 +90,35 @@ h1 {
 
 footer {
   clear: both;
-  width: 100%;
+  width: 850px;
+  margin: 0 auto;
+}
+
+ul {
+  display: inline;
+  float: left;
+  margin-right: 25px;
 }
 
 li {
   display: inline;
   list-style-type: none;
   text-transform: uppercase;
-  color: black;
+  color: #1c5380;
+  padding: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+footer span {
+  font-size: 12px;
+}
+
+.copyright {
+  width: 16%;
+  float: left;
+  text-align: right;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #bbb;
 }
