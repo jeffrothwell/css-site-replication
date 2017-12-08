@@ -26,54 +26,51 @@ main {
   overflow: hidden;
 }
 
-.phones, .insta-logo, .logo{
+/*.logo{
   float: left;
-}
+}*/
 
 .phones {
   width: 34%;
+  float: left;
 }
 
 .right-stuff {
-  width: 66%;
+  margin-left: 30px;
+  width: 53%;
+  float: left;
 }
 
 .insta-logo {
-  /*display: inline-block;*/
-  width: 65%;
+  width: 100%;
   float: left;
-}
-
-.logo .login {
-  display: inline;
 }
 
 .login {
-  float: left;
+  float: right;
   width: 80px;
   background-color: #06365f;
   font-size: 14px;
-  margin-left: 16px;
-  margin-top: 16px;
+  margin-top: 25px;
+  margin-right: 5px;
 }
 
 
 .frame {
-  /*position: absolute;*/
+  clear: both;
+  padding-top: 5px;
   width: 100%;
-  /*left: 34%;*/
-  /*top: 16%;*/
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
 }
 
 h1 {
   font-size: 24px;
 }
 
-.frame-contents {
-  width: 100%;
-  /*position: absolute;*/
-  /*top: 20px;*/
-  /*left: 6%;*/
+.frame-contents, .app-buttons {
+  width: 90%;
+  margin: 15px auto;
 }
 
 .button {
@@ -84,11 +81,11 @@ h1 {
 footer {
   clear: both;
   width: 100%;
-  /*position: absolute;
-  top: 30px;*/
 }
 
 li {
+  display: inline;
+  list-style-type: none;
   text-transform: uppercase;
   color: black;
 }
