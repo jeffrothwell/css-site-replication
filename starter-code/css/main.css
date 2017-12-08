@@ -19,7 +19,7 @@ body {
 }
 
 main {
-  width: 1000px;
+  width: 950px;
   position: absolute;
   top: 50px;
   margin: 0 auto;
@@ -45,7 +45,8 @@ main {
   width: 80px;
   background-color: #06365f;
   font-size: 14px;
-  /*float: right;*/
+  margin-left: 16px;
+  margin-top: 16px;
 }
 
 
