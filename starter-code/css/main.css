@@ -26,21 +26,30 @@ main {
   overflow: hidden;
 }
 
-.phones, .insta-logo, .logo, .login {
+.phones, .insta-logo, .logo{
   float: left;
 }
 
 .phones {
   width: 34%;
-  /*float: left;*/
+}
+
+.right-stuff {
+  width: 66%;
 }
 
 .insta-logo {
+  /*display: inline-block;*/
   width: 65%;
-  /*float: left;*/
+  float: left;
+}
+
+.logo .login {
+  display: inline;
 }
 
 .login {
+  float: left;
   width: 80px;
   background-color: #06365f;
   font-size: 14px;
@@ -50,10 +59,10 @@ main {
 
 
 .frame {
-  position: absolute;
-  width: 64%;
-  left: 34%;
-  top: 16%;
+  /*position: absolute;*/
+  width: 100%;
+  /*left: 34%;*/
+  /*top: 16%;*/
 }
 
 h1 {
@@ -61,10 +70,10 @@ h1 {
 }
 
 .frame-contents {
-  width: 60%;
-  position: absolute;
-  top: 20px;
-  left: 6%;
+  width: 100%;
+  /*position: absolute;*/
+  /*top: 20px;*/
+  /*left: 6%;*/
 }
 
 .button {
@@ -81,5 +90,5 @@ footer {
 
 li {
   text-transform: uppercase;
-  color: white;
+  color: black;
 }
